@@ -13,3 +13,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+}
+
+.pageContainer {
+  width: 600px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 3px solid rgba(137, 43, 226, 0.336);
+}
+
+.navigation {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation a {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 116px;
+  height: 42px;
+  font-size: medium;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+  color: rgb(255, 255, 255);
+
+  padding: 10px 30px;
+  transition: all 250ms ease-out;
+}
+
+.navigation a:hover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+.navigation > a.active {
+  font-weight: 900;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,17 +1,20 @@
+import { Route, Routes } from 'react-router-dom';
+
+import LayOut from './view/LayOut';
+import Todos from './view/Todos';
+import HomeView from './view/HomeView';
+import DoneTodo from './view/DoneTodo';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        textTransform: 'uppercase',
-        color: '#010101',
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<LayOut />}>
+          <Route index element={<HomeView />} />
+          <Route path="/todos" element={<Todos />} />
+          <Route path="/done" element={<DoneTodo />} />
+        </Route>
+      </Routes>
+    </>
   );
 };
