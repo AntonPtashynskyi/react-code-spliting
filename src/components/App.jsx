@@ -1,9 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
+import { lazy } from 'react';
 
 import LayOut from './view/LayOut';
-import Todos from './view/Todos';
-import HomeView from './view/HomeView';
-import DoneTodo from './view/DoneTodo';
+import preloadPage from './helpers/preloadPage';
+
+const DoneTodo = preloadPage('DoneTodo');
+
+const Todos = lazy(() => import('./view/Todos'));
+const HomeView = lazy(() => import('./view/HomeView'));
 
 export const App = () => {
   return (

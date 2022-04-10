@@ -1,4 +1,4 @@
-const DoneTodo = () => {
+export const DoneTodo = () => {
   return (
     <div className="pageContainer">
       <h2>Done Todo!</h2>
@@ -6,4 +6,4 @@ const DoneTodo = () => {
   );
 };
 
-export default DoneTodo;
+// export default DoneTodo;

@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
+import { Suspense } from 'react';
 
 import '../../index.css';
 
@@ -10,7 +11,9 @@ const LayOut = () => {
         <NavLink to="/todos">TODOS</NavLink>
         <NavLink to="/done">DONE TODO's</NavLink>
       </nav>
-      <Outlet />
+      <Suspense fallback="Loading...">
+        <Outlet />
+      </Suspense>
     </div>
   );
 };
