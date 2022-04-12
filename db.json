@@ -3,7 +3,7 @@
     {
       "id": "id-1",
       "text": "Сделать рефакторинг PhoneBook",
-      "completed": true
+      "completed": false
     },
     {
       "id": "id-2",
