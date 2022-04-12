@@ -1,7 +1,7 @@
-export const DoneTodo = () => {
+export const PhoneBook = () => {
   return (
     <div className="pageContainer">
-      <h2>Done Todo!</h2>
+      <h2>Phone book</h2>
     </div>
   );
 };

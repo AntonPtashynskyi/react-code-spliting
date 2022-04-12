@@ -1,12 +1,16 @@
+import ModalWindow from './modal/Modal';
+
+import FilterTodo from './FilterTodo';
+import Statistics from './Statistics';
+
 const TodoForm = () => {
   return (
     <>
-      <form>
-        <label>
-          Type what to do
-          <input />
-        </label>
-      </form>
+      <div className="todoContainer">
+        <ModalWindow />
+        <Statistics />
+        <FilterTodo />
+      </div>
     </>
   );
 };

@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "id-1",
+      "text": "Сделать рефакторинг PhoneBook",
+      "completed": true
+    },
+    {
+      "id": "id-2",
+      "text": "Добавить маршрутизацию в PhoneBook ",
+      "completed": false
+    },
+    {
+      "id": "id-3",
+      "text": "Добавить redux-persist в PhoneBook ",
+      "completed": false
+    },
+    {
+      "id": "id-4",
+      "text": "Добавить lazy import PhoneBook",
+      "completed": false
+    }
+  ]
+}
