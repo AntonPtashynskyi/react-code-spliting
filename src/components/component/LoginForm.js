@@ -18,9 +18,7 @@ export const LoginForm = () => {
     <div>
       <form onSubmit={handleSubmit}>
         <input type="text" name="login" />
-        <button onClick={() => navigate('/todos', { replace: false })}>
-          Log In
-        </button>
+        <button>Log In</button>
       </form>
     </div>
   );
