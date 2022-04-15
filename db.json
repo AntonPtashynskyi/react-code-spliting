@@ -1,11 +1,6 @@
 {
   "todos": [
     {
-      "id": "id-1",
-      "text": "Сделать рефакторинг PhoneBook",
-      "completed": false
-    },
-    {
       "id": "id-2",
       "text": "Добавить маршрутизацию в PhoneBook ",
       "completed": false
@@ -19,6 +14,11 @@
       "id": "id-4",
       "text": "Добавить lazy import PhoneBook",
       "completed": false
+    },
+    {
+      "text": "Anton",
+      "completed": false,
+      "id": "uVXLi-a"
     }
   ]
 }
