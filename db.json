@@ -1,24 +1,24 @@
 {
   "todos": [
     {
-      "id": "id-2",
-      "text": "Добавить маршрутизацию в PhoneBook ",
-      "completed": false
+      "text": "Do something ",
+      "completed": true,
+      "id": "jkEAw-m"
     },
     {
-      "id": "id-3",
-      "text": "Добавить redux-persist в PhoneBook ",
-      "completed": false
-    },
-    {
-      "id": "id-4",
-      "text": "Добавить lazy import PhoneBook",
-      "completed": false
-    },
-    {
-      "text": "Anton",
+      "text": "add lazy import PhoneBook",
       "completed": false,
-      "id": "uVXLi-a"
+      "id": "xkIZxda"
+    },
+    {
+      "text": "Add  redux-persist в PhoneBook",
+      "completed": false,
+      "id": "G8JmSOE"
+    },
+    {
+      "text": "Routing in PhoneBook",
+      "completed": false,
+      "id": "gKt_x7D"
     }
   ]
 }

@@ -3,7 +3,6 @@ import { lazy } from 'react';
 
 import LayOut from './view/LayOut';
 import preloadPage from './helpers/preloadPage';
-import LoginView from './view/LoginView';
 
 const PhoneBook = preloadPage('PhoneBook');
 

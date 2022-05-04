@@ -54,9 +54,6 @@ const toggleCompleted =
       .catch(error => dispatch(actions.toggleCompletedError(error)));
   };
 
-export default {
-  fetchTodos,
-  addTodo,
-  deleteTodo,
-  toggleCompleted,
-};
+const files = { fetchTodos, addTodo, deleteTodo, toggleCompleted };
+
+export default files;
