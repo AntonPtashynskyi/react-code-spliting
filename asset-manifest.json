@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/react-code-splitting/static/css/main.ab2d55c9.css",
-    "main.js": "/react-code-splitting/static/js/main.4ea7d645.js",
+    "main.css": "/react-code-splitting/static/css/main.705ffdac.css",
+    "main.js": "/react-code-splitting/static/js/main.871c7ea2.js",
+    "static/css/756.41ad19f6.chunk.css": "/react-code-splitting/static/css/756.41ad19f6.chunk.css",
+    "static/js/756.34f69394.chunk.js": "/react-code-splitting/static/js/756.34f69394.chunk.js",
+    "static/js/896.e6e8686f.chunk.js": "/react-code-splitting/static/js/896.e6e8686f.chunk.js",
+    "static/js/906.33a56950.chunk.js": "/react-code-splitting/static/js/906.33a56950.chunk.js",
+    "static/js/660.ff3dc5aa.chunk.js": "/react-code-splitting/static/js/660.ff3dc5aa.chunk.js",
+    "static/js/870.c9091173.chunk.js": "/react-code-splitting/static/js/870.c9091173.chunk.js",
     "index.html": "/react-code-splitting/index.html",
-    "main.ab2d55c9.css.map": "/react-code-splitting/static/css/main.ab2d55c9.css.map",
-    "main.4ea7d645.js.map": "/react-code-splitting/static/js/main.4ea7d645.js.map"
+    "main.705ffdac.css.map": "/react-code-splitting/static/css/main.705ffdac.css.map",
+    "main.871c7ea2.js.map": "/react-code-splitting/static/js/main.871c7ea2.js.map",
+    "756.41ad19f6.chunk.css.map": "/react-code-splitting/static/css/756.41ad19f6.chunk.css.map",
+    "756.34f69394.chunk.js.map": "/react-code-splitting/static/js/756.34f69394.chunk.js.map",
+    "896.e6e8686f.chunk.js.map": "/react-code-splitting/static/js/896.e6e8686f.chunk.js.map",
+    "906.33a56950.chunk.js.map": "/react-code-splitting/static/js/906.33a56950.chunk.js.map",
+    "660.ff3dc5aa.chunk.js.map": "/react-code-splitting/static/js/660.ff3dc5aa.chunk.js.map",
+    "870.c9091173.chunk.js.map": "/react-code-splitting/static/js/870.c9091173.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab2d55c9.css",
-    "static/js/main.4ea7d645.js"
+    "static/css/main.705ffdac.css",
+    "static/js/main.871c7ea2.js"
   ]
 }

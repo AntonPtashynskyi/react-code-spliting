@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_code_splitting=self.webpackChunkreact_code_splitting||[]).push([[660],{2660:function(e,n,t){t.r(n),t.d(n,{PhoneBook:function(){return i}});var c=t(184),i=function(){return(0,c.jsx)("div",{className:"pageContainer",children:(0,c.jsx)("h2",{children:"Phone book"})})}}}]);
+//# sourceMappingURL=660.ff3dc5aa.chunk.js.map
